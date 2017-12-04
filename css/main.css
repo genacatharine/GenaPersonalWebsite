@@ -1,0 +1,80 @@
+/*homepage*/
+.social {
+  font-size: 30px;
+}
+
+.header-container {
+  font-family: 'Roboto Mono' !important;
+  padding-top: 15%;
+  padding-bottom: 20%;
+}
+
+/*navbar*/
+.navbar-light .navbar-brand{
+  {
+    font-family: 'Roboto-Mono';
+  }
+}
+.nav-link {
+   display: inline-block !important;
+}
+
+.navbar {
+  font-family: 'Roboto Mono'!important;
+  background-color: #ececec !important;
+  font-weight: 700;
+  font-size: 15px;
+}
+.h1bold {
+  font-weight: bold !important;
+  font-family: 'Roboto Mono' !important;
+}
+/*portfolio*/
+
+.portfolio {
+  font-family: 'Roboto Mono' !important;
+  padding-top: 20%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold
+}
+
+.card-text {
+  font-size: 15px !important;
+}
+
+.card-hikingjournal {
+  background-image: url("../images/hikingjournal.png");
+}
+
+.card-learn {
+  background-image: url("../images/learnmorebetter.png");
+}
+
+.card-flex {
+  background-image: url("../images/flex.png");
+}
+.spacebtn {
+  margin-left: : 13px !important;
+  margin-right: 13px !important;
+}
+
+body {
+    font-family: 'Roboto Mono' !important;
+    min-height: 100%;
+}
+.wrap {
+  padding: 0 0 80px;
+}
+
+/* Footer */
+.footer {
+  padding-top: 1px;
+  font-family: 'Roboto Mono';
+  text-align: center;
+  position:fixed;
+  bottom:0;
+  width: 100%;
+  background-color: #ececec;
+  height: 100px;
+}
