@@ -3,10 +3,15 @@
   font-size: 30px;
 }
 
+p {
+  text-align: center;
+  font-size: 13px;
+}
+
 .header-container {
   font-family: 'Roboto Mono' !important;
-  padding-top: 15%;
-  padding-bottom: 20%;
+  padding-top: 5%;
+  padding-bottom: 2%;;
 }
 
 .container {
@@ -14,11 +19,7 @@
 }
 
 /*navbar*/
-.navbar-light .navbar-brand{
-  {
-    font-family: 'Roboto-Mono';
-  }
-}
+
 .social-link {
    display: inline-block !important;
 }
@@ -41,7 +42,7 @@
 /*portfolio*/
 
 .portfolio {
-  font-family: 'Roboto Mono' !important;
+  /*font-family: 'Roboto Mono' !important;*/
   padding-top: 20%;
   text-align: center;
   font-size: 30px;
@@ -78,20 +79,73 @@
 
 body {
     font-family: 'Roboto Mono' !important;
-    /*min-height: 100%;*/
 }
 .wrap {
   padding: 0 0 80px;
 }
 
+/*pixel logo*/
+
+#pixelContainer {
+  /*padding-top: 10px;*/
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+#submitlogo{
+  text-align: center;
+}
+
+#sidebar {
+  display:inline-block;
+  border-radius: 6px;
+}
+
+.color {
+    border: solid;
+    padding: 10px 10px;
+    float:left;
+}
+
+.pixel {
+  float: left;
+  display: inline-block;
+  background-color: white;
+  width: 15px;
+  height: 15px;
+  border: 1px solid black;
+}
+
+#red {
+  background-color: red;
+}
+#orange {
+  background-color: orange;
+}
+#yellow {
+  background-color: yellow;
+}
+#green {
+  background-color: green;
+}
+#blue {
+  background-color: blue;
+}
+#purple {
+  background-color: purple;
+}
+
 /* Footer */
 .footer {
+  font-weight: bold;
   padding-top: 1px;
+  font-size: 15px;
   font-family: 'Roboto Mono';
   text-align: center;
   position:fixed;
   bottom:0;
   width: 100%;
   background-color: #ececec;
-  height: 100px;
+  height: 75px;
 }
