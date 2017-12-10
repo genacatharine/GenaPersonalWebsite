@@ -19,7 +19,7 @@
     font-family: 'Roboto-Mono';
   }
 }
-.nav-link {
+.social-link {
    display: inline-block !important;
 }
 
@@ -29,6 +29,11 @@
   font-weight: 700;
   font-size: 15px;
 }
+
+.nav-item {
+  float: right !important;
+}
+
 .h1bold {
   font-weight: bold !important;
   font-family: 'Roboto Mono' !important;
@@ -36,14 +41,11 @@
 /*portfolio*/
 
 .portfolio {
-
   font-family: 'Roboto Mono' !important;
   padding-top: 20%;
-  padding-left: 10%;
-  padding-right: 10%;
   text-align: center;
   font-size: 30px;
-  justify-content: center;
+}
 
 }
 .portfolioh1 {
@@ -70,9 +72,13 @@
   margin-right: 13px !important;
 }
 
+.img-responsive {
+  margin: 0 auto;
+}
+
 body {
     font-family: 'Roboto Mono' !important;
-    min-height: 100%;
+    /*min-height: 100%;*/
 }
 .wrap {
   padding: 0 0 80px;
