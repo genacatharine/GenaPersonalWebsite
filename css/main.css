@@ -1,3 +1,10 @@
+body {
+    font-family: 'Roboto Mono' !important;
+}
+.wrap {
+  padding: 0 0 80px;
+}
+
 /*homepage*/
 .social {
   font-size: 30px;
@@ -15,7 +22,7 @@ p {
 }
 
 .container {
-  padding-bottom:5% !important;
+  padding-bottom:2% !important;
 }
 
 /*navbar*/
@@ -43,7 +50,7 @@ p {
 
 .portfolio {
   /*font-family: 'Roboto Mono' !important;*/
-  padding-top: 20%;
+  padding-top: 10%;
   text-align: center;
   font-size: 30px;
 }
@@ -77,14 +84,11 @@ p {
   margin: 0 auto;
 }
 
-body {
-    font-family: 'Roboto Mono' !important;
-}
-.wrap {
-  padding: 0 0 80px;
-}
-
 /*pixel logo*/
+
+.container{
+  text-align: center;
+}
 
 #pixelContainer {
   /*padding-top: 10px;*/
@@ -98,13 +102,15 @@ body {
 }
 
 #sidebar {
+  float: inherit;
+  /*text-align: center;*/
   display:inline-block;
-  border-radius: 6px;
+  /*border-radius: 6px;*/
 }
 
 .color {
-    border: solid;
-    padding: 10px 10px;
+    border: 1px solid black;
+    padding: 8px 8px;
     float:left;
 }
 
@@ -134,6 +140,12 @@ body {
 }
 #purple {
   background-color: purple;
+}
+#black {
+  background-color: black;
+}
+#white {
+  background-color:white;
 }
 
 /* Footer */
