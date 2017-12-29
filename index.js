@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-      for (var i = 0; i < 143; i++) {
+      for (var i = 0; i < 144; i++) {
       // create pixel divs
       var element = document.createElement("div");
       // add class pixel to div
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   pixelContainer1.addEventListener('click', function(event){
     event.target.style.backgroundColor= currentColor;
-
+    console.log(event);
   })
 
    });
